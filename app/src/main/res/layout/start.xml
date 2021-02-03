@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/studentForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+    <TableRow
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:background="@drawable/shape"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+    <TableRow
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="服务器"
+            android:textSize="20dp"/>
+        <EditText
+            android:background="@drawable/shape"
+            android:id="@+id/ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="192.168.0.4"/>
+    </TableRow>
+</TableLayout>
+
